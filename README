@@ -7,6 +7,7 @@ The old school ActiveSupport's inflections allowed you to pluralize, singularize
 
 Example
 =======
+ With this plugin installed in your rails app, you will be able to perform operations on strings this way... 
 
  "create".past_tensed  => "created"
  "buy".past_tensed => "baught"
@@ -21,7 +22,7 @@ Example
 Installation
 ============
 
-  ...
+  script/plugin install git://github.com/parolkar/inflectionist.git
 
 
 
