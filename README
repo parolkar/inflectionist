@@ -9,14 +9,14 @@ Example
 =======
  With this plugin installed in your rails app, you will be able to perform operations on strings this way... 
 
- "create".past_tensed  => "created"
- "buy".past_tensed => "baught"
- "fight".past_tensed => "faught"
- "market".past_tensed => "marketed"
- "animate".past_tensed => "animated"
- "fluctuate".past_tensed => "fluctuated"
- "tag".past_tensed => "tagged"
- "feel".past_tensed => "felt"
+ "create".to_past_tense  => "created"
+ "buy".to_past_tense => "baught"
+ "fight".to_past_tense => "faught"
+ "market".to_past_tense => "marketed"
+ "animate".to_past_tense => "animated"
+ "fluctuate".to_past_tense => "fluctuated"
+ "tag".to_past_tense => "tagged"
+ "feel".to_past_tense => "felt"
 
 
 Installation

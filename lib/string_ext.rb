@@ -12,6 +12,9 @@ module ActiveSupport
         def past_tensed
            Inflector.past_tensed(self)
         end
+        def to_past_tense
+           past_tensed
+        end
       end
     end
   end
