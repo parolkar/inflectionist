@@ -13,7 +13,7 @@ ActiveSupport::Inflector.inflections do |inflect|
   inflect.past_tense "teach",'taught'
   inflect.past_tense "feel",'felt'  
   inflect.past_tense "light",'lit'
-
+  inflect.past_tense "find",'found'
  
 
   
