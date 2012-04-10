@@ -6,6 +6,7 @@ ActiveSupport::Inflector.inflections do |inflect|
   inflect.past_tense /t$/,'ted'
   inflect.past_tense /g$/,'gged'
   inflect.past_tense /ight$/,'ought'
+  inflect.past_tense /y$/,'ied'
   inflect.past_tense "buy",'bought'  
   inflect.past_tense "sell",'sold'
   inflect.past_tense "is",'was'
